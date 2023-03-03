@@ -49,9 +49,9 @@ body {
   color: var(--color-ocean);
 }
 
-.logo {
+.color {
   font-family: Raleway, sans-serif;
-  color: var(--title-text-color);
+  color: var(--logo-text-color);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -61,7 +61,7 @@ body {
   text-transform: uppercase;
 }
 .logo-titel {
-  color: var(--logo-text-color);
+  color: var(--title-text-color);
 }
 /*--------------------------- Baner -----------------------*/
 .baner {
@@ -83,7 +83,13 @@ body {
 .button-baner:hover,
 .button-baner:focus {
   background-color: var(--color-ocean);
+
   border: 0px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 /*------------------------ Benefits -----------------*/
 .benefits {
@@ -154,8 +160,9 @@ body {
   letter-spacing: 0.02em;
 }
 /* ---------------------------Footer------------------------ */
-footer {
+.footer {
   background-color: var(--color-grey);
+  font-family: Raleway;
 }
 .logo-footer {
   color: var(--accent-color);
@@ -168,6 +175,9 @@ footer {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-titel {
+  color: var(--logo-text-color);
 }
 
 .footer-text {
@@ -190,6 +200,11 @@ footer {
   background-color: var(--color-ocean);
   color: var(--body-color);
   border: 0px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .projects-list {
   font-weight: 500;
