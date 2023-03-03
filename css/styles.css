@@ -19,6 +19,9 @@ body {
 /*---------------------- Navigation -------------------*/
 .site-nav {
 }
+.staile {
+  font-style: normal;
+}
 .site-nav-ling {
   color: var(--title-text-color);
 }
@@ -162,7 +165,7 @@ body {
   font-family: Raleway;
 }
 .logo-footer {
-  color: var(--accent-color);
+  color: var(--logo-text-color);
   font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
@@ -174,7 +177,7 @@ body {
   text-transform: uppercase;
 }
 .footer-titel {
-  color: var(--logo-text-color);
+  color: var(--accent-color);
 }
 
 .footer-text {
