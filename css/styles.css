@@ -53,7 +53,7 @@ body {
   font-style: normal;
 }
 .color {
-  color: #4d5ae5;
+  color: var(--logo-text-color);
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -175,7 +175,7 @@ body {
   line-height: 1.17;
 }
 .footer-titel {
-  color: #f4f4fd;
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
 }
 
