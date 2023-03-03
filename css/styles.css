@@ -49,14 +49,19 @@ body {
 .auth-nav-ling:focus {
   color: var(--color-ocean);
 }
-
+.sontacs {
+  font-style: normal;
+}
 .color {
-  font-family: Raleway, sans-serif;
   color: #4d5ae5;
-
+}
+.logo {
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-titel {
   color: var(--title-text-color);
