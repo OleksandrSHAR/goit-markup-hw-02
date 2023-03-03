@@ -6,13 +6,16 @@
   --logo-text-color: #4d5ae5;
   --body-color: #ffffff;
   --footer-text-color: #e7e9fc;
+  --color-grey: #2e2f42;
+  --color-ocean: #404bbf;
+  --color-green: #31d0aa;
 }
 
 body {
   background-color: var(--body-color);
   font-family: Roboto, sans-serif;
 }
-/* Navigation */
+/*---------------------- Navigation -------------------*/
 .site-nav {
 }
 .site-nav-ling {
@@ -20,86 +23,198 @@ body {
 }
 .site-nav-ling:hover,
 .site-nav-ling:focus {
-  color: var(--logo-text-color);
+  color: var(--color-ocean);
 }
 
 .auth-nav {
 }
 .auth-nav-ling {
   color: var(--praimary-text-color);
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pages-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav-ling:hover,
 .auth-nav-ling:focus {
-  color: var(--logo-text-color);
+  color: var(--color-ocean);
 }
 
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--title-text-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-titel {
   color: var(--logo-text-color);
 }
-/* Baner */
+/*--------------------------- Baner -----------------------*/
 .baner {
   background-color: var(--title-text-color);
 }
 .baner-titel {
   color: var(--body-color);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-/* Benefits */
+
+.button-baner {
+}
+.button-baner:hover,
+.button-baner:focus {
+  background-color: var(--color-ocean);
+  border: 0px;
+}
+/*------------------------ Benefits -----------------*/
 .benefits {
 }
 
 .benefits-list {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
 }
 
 .benefits-text {
   color: var(--praimary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
 }
-/* Reasons */
+/*--------------------------- Reasons --------------------*/
 .reasons {
 }
 
 .reasons-list {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-/* Team */
+
+/*------------------------------ Team ---------------------*/
 .team {
   background-color: var(--accent-color);
 }
 .team-list {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-hero {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
 }
 
 .hero-text {
   color: var(--praimary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
 }
-/* Footer */
+/* ---------------------------Footer------------------------ */
 footer {
-  background-color: var(--title-text-color);
+  background-color: var(--color-grey);
 }
 .logo-footer {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-text {
   color: var(--footer-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
 }
-/* Batton */
+
+/*!-------------------Portfolio--------------------*/
+
+.portfolio-button {
+  background-color: var(--footer-text-color);
+  color: var(--logo-text-color);
+  border: 0px;
+}
+.portfolio-button:is(:hover, :focus) {
+  background-color: var(--color-ocean);
+  color: var(--body-color);
+  border: 0px;
+}
+.projects-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.projects-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--praimary-text-color);
+}
+/*------------------------- Batton -------------------*/
 
 .button {
   color: var(--body-color);
   background-color: var(--logo-text-color);
+  border: 0px;
 }
 
-/* Component */
+/*-------------------- Component --------------------*/
 
 .section-title {
   color: var(--title-text-color);
