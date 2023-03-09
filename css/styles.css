@@ -25,10 +25,6 @@ body {
 .site-nav-ling {
   color: var(--title-text-color);
 }
-.site-nav-ling:hover,
-.site-nav-ling:focus {
-  color: var(--color-ocean);
-}
 
 .auth-nav-ling {
   color: var(--praimary-text-color);
